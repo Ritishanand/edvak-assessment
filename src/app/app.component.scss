@@ -1,0 +1,32 @@
+.typeahead-container {
+  position: relative;
+  width: 18.75rem;
+}
+
+.typeahead-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.suggestions-container {
+  border: 1px solid #ccc;
+  max-height: 12.5rem;
+  overflow-y: auto;
+  margin-top: 0.5rem;
+}
+
+.suggestion-item {
+  padding: 0.625rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.loading {
+  text-align: center;
+  padding: 0.625rem;
+  color: #888;
+}
